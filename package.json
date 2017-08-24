@@ -1,0 +1,23 @@
+{
+  "name": "autocomplete-brotli",
+  "main": "./lib/main",
+  "version": "0.2.0",
+  "description": "Autocomplete based on the brotli static dictionary",
+  "keywords": [
+    "autocomplete",
+    "brotli"
+  ],
+  "repository": "https://github.com/romainmenke/atom-autocomplete-brotli",
+  "author": "Romain Menke",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
